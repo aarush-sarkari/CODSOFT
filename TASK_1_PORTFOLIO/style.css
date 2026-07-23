@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    background-color:#f4f4f4;
+}
+
+/* Header */
+
+header{
+    background-color:#222;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+/* Sections */
+
+section{
+    padding:40px;
+    margin:20px;
+    background:white;
+    border-radius:10px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+/* About Section */
+
+#about img{
+    width:180px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+/* Skills */
+
+#skills ul{
+    list-style:square;
+    margin-left:20px;
+}
+
+/* Projects */
+
+.project-card{
+    margin-bottom:30px;
+}
+
+.project-card img{
+    width:300px;
+    border-radius:10px;
+}
+
+.project-card h3{
+    margin-top:10px;
+}
+
+
+/* Resume */
+
+#resume a{
+    text-decoration:none;
+    color:blue;
+    font-weight:bold;
+}
+
+
+/* Footer */
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
